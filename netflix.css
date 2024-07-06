@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mainBody {
+  width: 100%;
+  height: 118.4vh;
+  background-color: burlywood;
+  background-image: url(./assets/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+
+.mainBodyNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  align-items: center;
+}
+
+.mainBodyOpacity {
+  background-color: rgba(0, 0, 0, 0.577);
+  width: 100%;
+  height: 118.4vh;
+}
+
+.mainBodyOpacity>nav {
+  height: 14.4vh;
+  /* background-color: red; */
+}
+
+.language {
+  border: 1px solid rgb(106, 106, 106);
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  padding: 10px;
+  width: 140px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.language+button {
+  background-color: #E50914;
+  color: white;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+  width: 80px;
+}
+
+.getStartedSection {
+  color: white;
+  height: 104vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.getStartedSection h1 {
+  font-family: fantasy;
+  letter-spacing: 1px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.getStartedSection>div {
+  width: 100%;
+  height: 40%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.getStartedSection>div>form>input {
+  border: 1px solid rgb(161, 160, 160);
+  background: rgba(0, 0, 0, 0.578);
+  color: white;
+  width: 350px;
+  /* padding: 20px; */
+  height: 57px;
+  margin: 10px 10px 0 0;
+  border-radius: 4px;
+
+}
+
+.getStartedSection>div>form {
+  display: flex;
+  align-items: center;
+} 
+
+.getStartedSection>div>form>button {
+  background-color: #E50914;
+  color: white;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+  width: 170px;
+  height: 57px;
+  /* padding: 15px; */
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.cardsmain {
+  background-color: black;
+  color: white;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  border-top: 6px solid #232323;
+  align-items: center;
+}
+
+.cardSection h1
+{
+font-size : 48px;
+font-weight : 900;
+}
+
+.cardSection p {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.cardSection>div {
+  width: 35vw;
+}
+
+.questions {
+  border-top: 6px solid #232323;
+  padding-top: 60px;
+}
+
+.questions>h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+
+}
+
+.questions>main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.questions>main>div {
+  width: 65vw;
+  height: 10vh;
+  background-color: #414141;
+
+}
+
+.questions>main>div>div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+#hiddenDiv {
+  display: none;
+}
+
+.questions>main>div:hover #hiddenDiv {
+  display: inline-block;
+}
